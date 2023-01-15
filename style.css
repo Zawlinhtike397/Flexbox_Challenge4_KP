@@ -12,6 +12,7 @@
     width: 80%;
     max-width: 1128px;
     margin: 0 auto;
+    /* border: 2px solid blue; */
 }
 
 .row{
@@ -41,16 +42,32 @@
     text-align: center;
 }
 
-/* this is added comment for git testing*/
+
 
 .two-col__box-model{
-    padding: 2em;
+    padding: 2.5em 0;
+    /* border: 2px solid green; */
+}
+
+.two-column--heading{
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 2.3rem;
+    color: #824936;
+    padding-bottom: 1em;
 }
 
 .two-column--layout{
     display: flex;
-    gap: 1em;
-    margin: 1em;
+    gap: 4em;
+    /* border: 2px solid saddlebrown; */
+}
+
+.col--content{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    /* font-weight: 400; */
+    /* border: 2px solid red; */
 }
 
 
