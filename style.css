@@ -1,0 +1,55 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-section{
+    background-color: #F3EED9;
+}
+
+.container{
+    width: 80%;
+    max-width: 1128px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 660px; 
+    /* border: 2px solid brown; */
+}
+
+.heading__text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: lighter;
+    /* border: 2px solid green; */
+}
+
+.heading{
+    font-family: 'Playfair Display', serif;
+    font-size: 3.75rem;
+    color: #824936;
+    /* border: 2px solid red; */
+}
+
+.heading__text,.heading, .two-column--heading {
+    text-align: center;
+}
+
+.two-col__box-model{
+    padding: 2em;
+}
+
+.two-column--layout{
+    display: flex;
+    gap: 1em;
+    margin: 1em;
+}
+
+
+/*fking solve an error */
